@@ -6,11 +6,11 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
+        <header className="App-header"> Nancy's Dictionary
         <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset"/>
         </main>
         <footer className="App-footer">
           <small>This project was coded by {""}
