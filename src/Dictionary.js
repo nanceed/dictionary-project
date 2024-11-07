@@ -23,11 +23,11 @@ export default function Dictionary(props) {
     }
     
     function handleDictionaryResponse(response) {
-        setResults(response.data[0]);
+        setResults(response.data);
     }
 
     function handleImageResponse(response) {
-        console.log(response.data.photos);
+        setPhotos(response.data.photos);
     }
     
     function handleSubmit(event) {
@@ -48,13 +48,13 @@ export default function Dictionary(props) {
         return (
             <div className="Dictionary">
                 <section>
-                    <h1>What word would you like to look for?</h1>
+                    <h1>What word would you like to look up?</h1>
                     <form onSubmit={handleSubmit}>
                         <input type="search" onChange={handleKeywordChange}
                             defaultValue={props.defaultKeyword} />
                     </form>
                     <div className="hint">
-                        suggested words: sunset, sunrise, yoga, wine...
+                        suggested words: autumn, yoga, wine, coding...
                     </div>
                 </section>
                 <Results results={results} />
