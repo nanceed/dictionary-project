@@ -2,6 +2,18 @@ body {
     background: #f9f8fe;
 }
 
+a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.App {
+    padding: 60px 0 100px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
 .App-logo {
     max-width: 100px;
     display: block;
@@ -11,7 +23,9 @@ body {
     margin: 30px 0;
 }
 
-.App-footer {
+
+.App footer {
     text-align: center;
-    margin: 30px 0;
+    margin-top: 20px;
+    font-size: 14px;
 }
