@@ -1,6 +1,6 @@
 .Dictionary h1 {
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 28px;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -13,10 +13,18 @@
 }
 
 .Dictionary input {
-    width: 100%;
+    width: 85%;
     padding: 6px 10px;
     border: 1px solid #ddd;
     color: #333;
+}
+
+.Dictionary .search-button {
+    background: #f9f8fe;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 8px;
+    width: 12%;
 }
 
 .Dictionary .hint {
